@@ -1,0 +1,19 @@
+[project]
+name = "delaunay"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Mathias Millet", email = "mathias@mmill.eu"},
+]
+dependencies = [
+    "jupyterlab>=4.2.5",
+    "ipycanvas>=0.13.3",
+    "numpy>=2.1.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "AGPL"}
+
+
+[tool.pdm]
+distribution = false
